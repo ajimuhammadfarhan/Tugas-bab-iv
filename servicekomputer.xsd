@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsixml"/>
+    <xs:element name="servicekomputer">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="email"/>
+                <xs:element ref="jenis"/>
+                <xs:element ref="jumlah"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="no_hp"/>
+                <xs:element ref="tgl_kembali"/>
+                <xs:element ref="tgl_service"/>
+            </xs:choice>
+            <xs:attribute name="Data" use="required" type="xs:NCName"/>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alamat" type="xs:string"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="jenis">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="no_barang"/>
+            </xs:sequence>
+            <xs:attribute name="barang" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="no_barang" type="xs:integer"/>
+    <xs:element name="jumlah">
+        <xs:complexType>
+            <xs:attribute name="barang" use="required" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="no_hp" type="xs:integer"/>
+    <xs:element name="tgl_kembali" type="xs:string"/>
+    <xs:element name="tgl_service" type="xs:string"/>
+</xs:schema>

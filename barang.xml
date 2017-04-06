@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servicekomputer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="servicekomputer.xsd">
+	
+	<nama>Aji Muhammad Farhan</nama>
+	<jenis barang="laptop">
+		<no_barang>0001</no_barang>
+	</jenis>
+	<jumlah barang="2"></jumlah>
+	<alamat>Jl. Pluto Selatan II No.53 Kota Bandung</alamat>
+	<no_hp>089610719246</no_hp>
+	<tgl_service>5 April 2017</tgl_service>
+	<tgl_kembali>9 April 2017</tgl_kembali>
+	<email>ajimuhammad.farhan@gmail.com</email>
+	
+	<nama>Abyan Indrawan Putra</nama>
+	<jenis barang="Printer">
+	<no_barang>0002</no_barang>
+	</jenis>
+	<jumlah barang="1"></jumlah>
+	<alamat>Jl.Sarijadi  Kota Bandung</alamat>
+	<no_hp>087224553987</no_hp>
+	<tgl_service>7 April 2017</tgl_service>
+	<tgl_kembali> 10 April 2017</tgl_kembali>
+	<email>Abyanindrawanputra@gmail.com</email>
+	
+	<nama>YusriRizal</nama>
+	<jenis barang="CPU">
+	<no_barang>0003</no_barang>
+	</jenis>
+	<jumlah barang="4"></jumlah>
+	<alamat>Jl. Sari asih Blok 3  Kota Bandung</alamat>
+	<no_hp>081324667885</no_hp>
+	<tgl_service> 8 April 2017</tgl_service>
+	<tgl_kembali> 12 April 2017</tgl_kembali>
+	<email>Yusririzal@gmail.com</email>
+	
+	<nama>M. Amran Hakim Siregar</nama>
+	<jenis barang="Mouse">
+	<no_barang>0004</no_barang>
+	</jenis>
+	<jumlah barang="6"></jumlah>
+	<alamat>Jl. Sari asih Blok 5  Kota Bandung</alamat>
+	<no_hp>081322345657</no_hp>
+	<tgl_service> 11 April 2017</tgl_service>
+	<tgl_kembali> 16 April 2017</tgl_kembali>
+	<email>AmranHakim@gmail.com</email>
+	
+	<nama>Diana Satima</nama>
+	<jenis barang="Keyboard">
+	<no_barang>0005</no_barang>
+	</jenis>
+	<jumlah barang="7"></jumlah>
+	<alamat>Jl. Sarijadi Blok 2  Kota Bandung</alamat>
+	<no_hp>081544686932</no_hp>
+	<tgl_service> 15 April 2017</tgl_service>
+	<tgl_kembali> 20 April 2017</tgl_kembali>
+	<email>DianaSatima@gmail.com</email>
+	</servicekomputer>
+
+	
